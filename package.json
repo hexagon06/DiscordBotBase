@@ -1,6 +1,6 @@
 {
-  "name": "discord-bot-base",
-  "version": "1.0.0",
+  "name": "discord-dnd-bot-base",
+  "version": "1.1.0",
   "description": "base library to use for discord based bots who also use discord as database",
   "main": "dist/index.js",
   "repository": {
@@ -36,6 +36,7 @@
     "discord",
     "bot"
   ],
+  "types": "dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/hexagon06/DiscordBotBase/issues"
   },
