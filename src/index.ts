@@ -1,4 +1,7 @@
-declare module "discord-dnd-bot-base" {
-    export * from "./discord";
-    export * from "./bot-log";
+export * from './discord';
+export * from './command/command';
+export * from './bot-log';
+
+export class TestThisModule {
+    public test = 'yep';
 }
