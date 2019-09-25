@@ -1,0 +1,43 @@
+{
+  "name": "discord-bot-base",
+  "version": "1.0.0",
+  "description": "base library to use for discord based bots who also use discord as database",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexagon06/DiscordBotBase.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "watch": "node_modules/.bin/tsc -w",
+    "build": "node_modules/.bin/tsc",
+    "start": "node dist/index.js",
+    "lint": "tslint src/**/*.ts",
+    "test": "test"
+  },
+  "author": "Pony & Platypus",
+  "dependencies": {
+    "@discordjs/uws": "^10.149.0",
+    "@types/node": "^12.7.1",
+    "bufferutil": "^4.0.0",
+    "discord.js": "^11.5.1",
+    "erlpack": "github:discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.3",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6",
+    "typescript": "^3.5.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/hexagon06/DiscordBotBase/issues"
+  },
+  "homepage": "https://github.com/hexagon06/DiscordBotBase#readme"
+}
