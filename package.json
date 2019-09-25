@@ -1,6 +1,6 @@
 {
   "name": "discord-dnd-bot-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "base library to use for discord based bots who also use discord as database",
   "main": "dist/index.js",
   "repository": {
